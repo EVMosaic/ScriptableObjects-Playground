@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 1545475185
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: tube_bundle
+      Dependencies: {}
+    Info_1:
+      Name: ball_bundle
+      Dependencies: {}
+    Info_2:
+      Name: box_bundle
+      Dependencies: {}

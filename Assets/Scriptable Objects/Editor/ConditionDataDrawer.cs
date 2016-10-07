@@ -7,9 +7,9 @@ public class ConditionDataDrawer : PropertyDrawer {
 
   public override void OnGUI (Rect pos, SerializedProperty prop, GUIContent label)
   {
-    SerializedProperty name = prop.FindPropertyRelative("name");
+    //SerializedProperty name = prop.FindPropertyRelative("name");
     SerializedProperty health = prop.FindPropertyRelative("health");
-    SerializedProperty color = prop.FindPropertyRelative("color");
+    //SerializedProperty color = prop.FindPropertyRelative("color");
 
 
     //EditorGUI.Slider(

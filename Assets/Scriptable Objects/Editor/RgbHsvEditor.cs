@@ -36,7 +36,7 @@ public class RgbHsvEditor : Editor {
       script.g = EditorGUILayout.Slider(script.g, 0, 1, GUILayout.MaxWidth(maxWidth));
       EditorGUILayout.LabelField("Blue");
       script.b = EditorGUILayout.Slider(script.b, 0, 1, GUILayout.MaxWidth(maxWidth));
-      Color RGBcolor = new Color(script.r, script.g, script.b);
+      //Color RGBcolor = new Color(script.r, script.g, script.b);
       EditorGUILayout.EndVertical();
 
       EditorGUILayout.BeginVertical("box");
